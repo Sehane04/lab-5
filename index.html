@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a2bba44d70.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="page">
+        <div class="sidebar">
+            
+            <div class="heading">
+                <h1>Şəhanə<span>.</span></h1> 
+            </div>
+            <div class="sidebar__navbar">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Fashion</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sidebar__rights">
+                <p>Copyright 2023 All rights reserved <br> | This template is made with <i class="fa-solid fa-heart"></i> by <br> <span>Şəhanə</span></p>
+            </div>
+            <div class="sidebar__icons">
+                <a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="content__img">
+                <img src="993ec719-f074-4e39-ab5e-94b9b7ed7962.jfif" alt="" width="200x" height="200px" style="border-radius: 50%;">
+            </div>
+            <div class="content__name">
+                <p>Hello I'm</p>
+                <h1>Şəhanə Abdullayeva</h1>
+            </div>
+            <div class="content__text">
+                <p>Mən Abdullayeva Şəhanə Azərbaycan Texniki Universitetində əyani təhsil alıram. Riyaziyyat sahəsinə böyük bir marağım var. Gələcəkdə hansı sahəyə yönələcəyim haqqında hələ ki, dəqiq bir fikrim yoxdur.
+                </p>
+            </div>
+            <div class="content__about-me">
+                <a href="#">More About Me<i class="fa-solid fa-chevron-right fa-xs"></i></a>
+            </div>
+            <div class="container">
+                <form name="calculator">
+                    <table>
+                    <tr>
+                        <td colspan="4">
+                            <input type="text" name="display" id="display" disabled>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+                        <td><input type="button" name="two" value="2" onclick="calculator.display.value += '2'"></td>
+                        <td><input type="button" name="three" value="3" onclick="calculator.display.value += '3'"></td>
+                        <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" name="four" value="4" onclick="calculator.display.value += '4'"></td>
+                        <td><input type="button" name="five" value="5" onclick="calculator.display.value += '5'"></td>
+                        <td><input type="button" name="six" value="6" onclick="calculator.display.value += '6'"></td>
+                        <td><input type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
+                        <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
+                        <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
+                        <td><input type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+                        <td><input type="button" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
+                        <td><input type="button" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+                        <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
+                    </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="../LAB 5/js/script.js"></script>
+</body>
+</html>
